@@ -10,7 +10,7 @@
     "@comunica/actor-init-sparql": "^1.4.4"
   },
   "scripts": {
-    "prepare": "comunica-compile-config config/config-browser.json > engine-default.js",
+    "prepare": "comunica-compile-config config/config-default.json > engine-default.js",
     "browser": "npm run prepare && \"../../node_modules/webpack/bin/webpack.js\" --config webpack.config.js --mode production"
   }
 }
